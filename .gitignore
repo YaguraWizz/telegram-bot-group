@@ -1,5 +1,5 @@
-bin/
-obj/
-*.user
-*.suo
-*.sln.docstates
+telegram-bot-project/
+.log/
+.data/telegram-bot.service
+
+
