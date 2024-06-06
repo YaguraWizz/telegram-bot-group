@@ -8,8 +8,8 @@
 
 2. Выполните следующие команды:
    ```
-   git clone https://github.com/YaguraWizz/telegramm-bot-group.git
-   cd telegramm-bot-group
+   git clone https://github.com/YaguraWizz/telegram-bot-group.git
+   cd telegram-bot-group
    chmod +x init.sh
    sudo ./init.sh
    ```
@@ -27,7 +27,7 @@
 
 3. Выполните следующие команды:
    ```
-   git clone https://github.com/YaguraWizz/telegramm-bot-group.git
-   cd telegramm-bot-group
+   git clone https://github.com/YaguraWizz/telegram-bot-group.git
+   cd telegram-bot-group
    .\setup-project.ps1
    ```
