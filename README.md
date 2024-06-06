@@ -11,7 +11,7 @@
    git clone https://github.com/YaguraWizz/telegramm-bot-group.git
    cd telegramm-bot-group
    chmod +x init.sh
-   ./init.sh
+   sudo ./init.sh
    ```
 
 **Для Windows:**
