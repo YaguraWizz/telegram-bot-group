@@ -1,1 +1,0 @@
-Telegram.Bot --version 19.0.0
