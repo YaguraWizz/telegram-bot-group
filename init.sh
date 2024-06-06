@@ -15,7 +15,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 ROOT_DIR_NAME="telegram-bot-group"
-ROOT_PATH_DIR="$(realpath "$(dirname "$BASH_SOURCE")/..")"
+ROOT_PATH_DIR="$(realpath "$(dirname "$BASH_SOURCE")/")"
 
 PROJECT_NAME="telegram-bot-project"
 PROJECT_DIR="$ROOT_PATH_DIR/$PROJECT_NAME"
@@ -129,7 +129,7 @@ function Error() {
 function check_path_root_dir(){
     if [ "$(basename "$ROOT_PATH_DIR")" != $ROOT_DIR_NAME ]; then
         Error "определенный путь не соответствует истине.
-        Определено: $(basename "$ROOT_PATH_DIR"),
+        Определено: $(basename "$ROOT_PATH_DIR")
         Ожидается: $ROOT_DIR_NAME" BAT_PATH_DIR
     else
         CORRECTNESS_PROJECT_DIRECTOR=true
