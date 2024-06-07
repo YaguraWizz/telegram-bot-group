@@ -31,3 +31,20 @@
    cd telegram-bot-group
    .\setup-project.ps1
    ```
+
+
+Возможные вариант запуска 
+
+sudo ./init.sh start-locale
+sudo ./init.sh build
+sudo ./init.sh rbuild
+sudo ./init.sh create-service
+sudo ./init.sh start-service
+sudo ./init.sh status-service
+sudo ./init.sh stop-service
+sudo ./init.sh path
+sudo ./init.sh rdev
+sudo ./init.sh rcore
+
+
+chmod +x test_inc.sh

@@ -1,4 +1,4 @@
 telegram-bot-project/
-.log/
-.data/telegram-bot.service
 
+.conf/telegram-bot.service
+.log
